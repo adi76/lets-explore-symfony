@@ -14,7 +14,6 @@ class QuestionController extends AbstractController
      */
     public function question($question)
     {
-        dump($this);
         return $this->render('question/index.html.twig', [
             'question' => $question
         ]);
